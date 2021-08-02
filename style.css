@@ -3,6 +3,10 @@ body{
     background-color: rgb(240, 228, 228);
 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .container{
 
     max-width: 1024px;
@@ -32,7 +36,7 @@ header
     max-width: 1024px;
     margin: 0 auto;
 }
-nav .menu{
+.menu{
 
 display: inline-block;
 padding:  10px 20px;
@@ -101,6 +105,10 @@ nav .menu{
     display: none;
     margin-left: 0px;
 }
+
+.mobile-wrapper{
+    display: block;
+}
 .logo{
    padding: 30px 0;
 }
@@ -109,6 +117,9 @@ nav .menu{
 }
 .header-container{
     position: relative;
+}
+.mob-nav{
+    display: none;
 }
 
 }
