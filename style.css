@@ -1,7 +1,6 @@
 
 .container{
     min-height: 500px;
-    background-color: blue;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -9,15 +8,23 @@
     justify-content: space-between;
 }
 .col{
-    background-color: blueviolet;
-    min-height: 200px;
+
     width: 30%;
+    background-color: rgb(95, 179, 11);
     margin-bottom: 40px;
 }
+.hide-desktop-only{
 
+    display: none;
+}
+.col img{
 
-
-
+    width: 100%;
+    height: auto;
+}
+.col p::first-line{
+    font-weight: bold;
+}
 
 /* Tablet view */
 @media (max-width: 768px){
@@ -25,12 +32,21 @@
 .col{
     width: 47%;
 }
+.hide-desktop-only{
+
+    display: block;
+}
+
 
 /* Mobile view */
 @media (max-width: 400px){
 
 .col{
     width: 100%;
+}
+.hide-mobile-only{
+
+    display: none;
 }
 
 }
