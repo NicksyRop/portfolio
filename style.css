@@ -73,6 +73,10 @@ nav .menu a{
     font-weight: 700;
 }
 
+.mobile-wrapper{
+    display: none;
+}
+
 
 
 
@@ -94,7 +98,7 @@ header{
 
 nav .menu{
 
-    display: block;
+    display: none;
     margin-left: 0px;
 }
 .logo{
