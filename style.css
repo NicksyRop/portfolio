@@ -10,12 +10,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 150px;
 }
 .header-container{
 
 background-color: rgb(56, 54, 54);
+position: fixed;
+width: 100%;
 
-margin-bottom: 40px;
+
 
 }
 header
@@ -26,7 +29,6 @@ header
     justify-content: space-between;
     color: white;
     align-items: center;
-
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -66,6 +68,13 @@ nav .menu a{
     padding:20px;
     line-height: 1.25rem;
 }
+.highlight{
+
+    font-weight: 700;
+}
+
+
+
 
 /* Tablet view */
 @media (max-width: 768px){
@@ -77,8 +86,28 @@ nav .menu a{
 
     display: block;
 }
+header{
 
+    display: block;
+    text-align: center;
+}
 
+nav .menu{
+
+    display: block;
+    margin-left: 0px;
+}
+.logo{
+   padding: 30px 0;
+}
+.container{
+    padding-top: 40px;
+}
+.header-container{
+    position: relative;
+}
+
+}
 /* Mobile view */
 @media (max-width: 400px){
 
@@ -89,5 +118,6 @@ nav .menu a{
 
     display: none;
 }
+
 
 }
