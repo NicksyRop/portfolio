@@ -96,18 +96,19 @@ nav .menu a{
 }
 header{
 
-    display: block;
+    display: flex;
     text-align: center;
 }
 
 nav .menu{
 
     display: none;
-    margin-left: 0px;
+
 }
 
 .mobile-wrapper{
     display: block;
+    padding-right: 30px;
 }
 .logo{
    padding: 30px 0;
@@ -120,9 +121,22 @@ nav .menu{
 }
 .mob-nav{
     display: none;
-}
+    position: absolute;
 
 }
+.navbutton{
+    display: block;
+    margin-left: -80px;
+    background-color: tomato;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+
+}
+
+
+
 /* Mobile view */
 @media (max-width: 400px){
 
@@ -133,6 +147,7 @@ nav .menu{
 
     display: none;
 }
+
 
 
 }
